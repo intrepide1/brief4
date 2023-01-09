@@ -1,0 +1,150 @@
+.prev,
+.next {
+	cursor: pointer;
+	width: auto;
+	padding: 16px;
+	margin-top: -6spx;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/*rgba(0,0,0,0.8) user-select: none;position: absolute; On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover,
+select:hover {
+	background-color: lightgrey;
+}
+
+nav .animation {
+	margin-bottom: -10px;
+	position: absolute;
+	height: 4px;
+
+	z-index: 0;
+	background: skyblue;
+	/*border-radius: 8px; #1abc9c*/
+	transition: all .5s ease 0;
+}
+
+nav a {
+	position: relative;
+	font-size: 15px;
+	line-height: 30px;
+	text-decoration: none;
+	z-index: 1;
+
+
+}
+
+a:nth-child(1) {
+	width: 100px;
+}
+
+nav .start-home,
+a:nth-child(1):hover~.animation {
+	width: 50px;
+	left: 120px;
+}
+
+a:nth-child(4) {
+	width: 100px;
+}
+
+nav .start-home,
+a:nth-child(4):hover~.animation {
+	width: 60px;
+	left: 360px;
+}
+
+a:nth-child(5) {
+	width: 100px;
+}
+
+nav .start-home,
+a:nth-child(5):hover~.animation {
+	width: 57px;
+	left: 435px;
+}
+
+a:nth-child(2) {
+	width: 110px;
+}
+
+nav .start-home,
+a:nth-child(2):hover~.animation {
+	width: 90px;
+	left: 180px;
+}
+
+a:nth-child(3) {
+	width: 150px;
+}
+
+nav .start-home,
+a:nth-child(3):hover~.animation {
+	width: 60px;
+	left: 285px;
+}
+
+a:nth-child(6) {
+	width: 110px;
+}
+
+nav .start-home,
+a:nth-child(6):hover~.animation {
+	width: 105px;
+	left: 510px;
+}
+
+#rech {
+	width: 600px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 20px;
+	box-shadow: 1px 1px 6px lightgray;
+	border-style: inherit;
+}
+
+#connexion {
+
+	margin-left: 200px;
+}
+
+#tout {
+	color: black;
+	margin-left: 125px;
+}
+
+#actu {
+	color: black;
+	margin-left: 20px;
+}
+
+#imag {
+	color: black;
+	margin-left: 20px;
+}
+
+#videos {
+	color: black;
+	margin-left: 20px;
+}
+
+#cartes {
+	color: black;
+	margin-left: 20px;
+}
+
+#pub {
+	color: black;
+	margin-left: 20px;
+}
